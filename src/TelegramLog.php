@@ -1,6 +1,6 @@
 <?php
 
-namespace MatviiB;
+namespace Dualse;
 
 use Illuminate\Support\Facades\Log;
 
