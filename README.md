@@ -26,6 +26,13 @@ TELEGRAM_LOGGER_CHAT_ID=XXX,YYY
 #developer1 - XXX
 #developer2 - YYY
 ```
+Add to your config/services.php file:
+```
+'telegram_logger' => [
+     'token' => env('TELEGRAM_LOGGER_TOKEN'),
+     'chat_id' => env('TELEGRAM_LOGGER_CHAT_ID'),
+],
+```
 
 # Bonus
 ### Creating telegram bot tutorial
